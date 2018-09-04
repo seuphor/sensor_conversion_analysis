@@ -9,6 +9,8 @@
 5. Feature Engineering & Refined Model
 6. Finding & Summary
 
+## Analysis Details
+
 ### 1. Understand Rows & Columns
 
 * Identify number of unique users
