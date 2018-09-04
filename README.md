@@ -9,20 +9,20 @@
 5. Feature Engineering & Refined Model
 6. Finding & Summary
 
-## Understand Rows & Columns
+### 1. Understand Rows & Columns
 
 * Identify number of unique users
 * Identify types of events
 * Find missing values and why they are missing
 
 
-## Data Processing
+### 2. Data Processing
 
 * Upack JSON dictionary
 * Filter out irrelevant users for unbiased analysis
 * Generate two tables (event-level based & user-level based)
 
-## EDA
+### 3. EDA
 
 * Generate questions and use data to answer them
 	1. What is average users activity level?
@@ -40,18 +40,18 @@
 	7. If user interact with website more times, more likely to sign up.
 		> Prior to conversion, a significant amount of users interact with product, b-round, demo and manual pages. **40% of user who convert see the demo page**. However, in the population, only 15% user see the demo page. We probably need to think about expose our demo page to the users to increase the chance of converting.
 
-## Baseline Model & Inference
+### 4. Baseline Model & Inference
 
 * Logitstic Regression model with limited amount of features (around 4)
 * Logistic Regression model with more features (around 15)
 * Logistic Regression model with bootstrap sampling technique to control class balance
 * Random Forest model for better performance
 
-## Feature Engineering & Refined Model
+### 5. Feature Engineering & Refined Model
 * Extensive Feature Engineering
 * Refined Random Forest Model
 
-## Finding & Summary
+### 6. Finding & Summary
 * Findings:
 	1. Compare to user activity information, the Effect of Reference Source, Mobile, Browser is pretty minimal
 	2. Most of users who converted spend reasonable time between pages 8 - 20 seconds per page
