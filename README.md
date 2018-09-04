@@ -50,10 +50,12 @@
 * Random Forest model for better performance
 
 ### 5. Feature Engineering & Refined Model
+
 * Extensive Feature Engineering
 * Refined Random Forest Model
 
 ### 6. Finding & Summary
+
 * Findings:
 	1. Compare to user activity information, the Effect of Reference Source, Mobile, Browser is pretty minimal
 	2. Most of users who converted spend reasonable time between pages 8 - 20 seconds per page
@@ -61,6 +63,8 @@
 	4. Almost 50% people who converted, directly clicked the request button for demo request on the landing page without exploring other pages.
 	5. The lifetime for most converted users is around 2 minutes.
 	6. Around 100+ churn users has very low value in effective btn click feature.
+
+
 * Recommendations:
 	1. We may need to find a better way to do the marketing strategies. From the finding, **we did not see difference among marketing campaign** in terms of conversion performance. The likehood of conversion is highly depend on users' interaction with the website.
 	2. Optimize the content of the web page. Control the reading time in **8 - 20 seconds** per page range.
