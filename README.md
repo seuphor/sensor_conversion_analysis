@@ -1,4 +1,4 @@
-# Sensors User Log Data Analysis (Zihao Ji)
+# Sensors User Log Data Analysis
 > Objective: Understand why users did not convert and how to opitmize the funnel flow to increase conversion rate
 
 ## Analysis Structure
